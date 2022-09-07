@@ -12,6 +12,11 @@
 body{
     width: 100%;
     height: auto;
+    background-image: url("./img/header-img.png"),
+                      url("./img/carbottom.png");
+    background-repeat: no-repeat;
+    background-position: top -2px right 93px,
+                         top 6px left 202px;
 }
 
 a{
@@ -41,7 +46,7 @@ nav{
     line-height: 2.4rem;
     letter-spacing: 0.9px;
     color: rgba(57, 55, 55, 0.4);
-    margin-left: 4.6rem;
+    margin-left: 2.6rem;
     width: 12.7rem;
 }
 
@@ -51,4 +56,46 @@ nav{
     background-color: #fff;
     border: 1px solid rgba(57, 55, 55, 0.4);
     border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+main{
+    margin: 5rem 10.2rem;
+    height: 75rem;
+    background-image: url("./img/carup.png"),
+                      url("./img/carup.png"),
+                      url('./img/main-img.png');
+    background-repeat: no-repeat;
+    background-position: top 393px right 38px,
+     top 235px left 466px, 
+     top 375px left 971px;
+}
+
+main h1{
+    font-size: 11.1rem;
+    line-height: 11.5rem;
+    letter-spacing: 6.96px;
+    color: #393737;
+}
+
+main p{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: #70748C;
+    width: 36.5rem;
+    margin-top: 12.2rem;
+}
+
+main button{
+    margin-top: 3.4rem;
+    padding: 2.2rem 4rem;
+    background: #FFEA31;
+    border-radius: 0.4rem;
+    border: none;
+    cursor: pointer;
+
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.45px;
+    color: #393737;
 }
