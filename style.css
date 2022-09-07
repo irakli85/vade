@@ -47,4 +47,8 @@ nav{
 
 .header-btn{
     padding: 1rem 1.3rem;
+    margin-left: 0;
+    background-color: #fff;
+    border: 1px solid rgba(57, 55, 55, 0.4);
+    border-radius: 0.4rem;
 }
