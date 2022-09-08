@@ -10,7 +10,7 @@
 }
 
 body{
-    width: 100%;
+    width: 100vw;
     height: auto;
     background-image: url("./img/header-img.png"),
                       url("./img/carbottom.png");
@@ -207,7 +207,7 @@ main button{
 .section-two{
     margin-left: 12rem;
     position: relative;
-    width: 902px;
+    height: 902px;
 }
 
 .section-two h2{
@@ -234,8 +234,104 @@ main button{
 }
 
 .map-img{
-    width: 787px;
-    height:614px;
-    top: 1rem;
-    left: 1rem;
+    top: 28rem;
+    left: 54rem;
+}
+
+.parking-img{
+    top: 33rem;
+    left: 31rem;
+}
+
+.peak-img{
+    top: 53.3rem;
+    left: 17rem;
+}
+
+.utilization-img{
+    top: 53.3rem;
+    left: 69rem;
+}
+
+.section-three{
+    margin-left: 20.4rem;
+}
+
+.section-three h2{
+    font-size: 4.4rem;
+    line-height: 5rem;
+    letter-spacing: 1.32px;
+    color: #393737;
+    margin-top: 17.2rem;
+    max-width: 51rem;
+}
+
+.section-three p{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: #70748C;
+    margin-top: 2.5rem;
+    max-width: 48.1rem;
+}
+
+.section-three strong{
+    display: block;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #393737;
+    margin-top: 9.4rem;
+}
+
+.section-three ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6.9rem;
+    margin-top: 3.6rem;
+}
+
+.logo-items{
+    flex-basis: 25%;
+}
+
+.quote-box{
+    display: flex;
+    margin-top: 19.6rem;
+    align-items: flex-end;
+    margin-bottom: 18.8rem;    
+}
+
+.quote{
+    display: flex;
+}
+
+.quote blockquote{
+    font-size: 3.2rem;
+    line-height: 4.6rem;
+    letter-spacing: 0.32px;
+    color: #4E66FF;
+    max-width: 56.8rem;
+}
+
+.quote-info{
+    display: flex;
+    align-items: center;
+    margin-left: 7.5rem;    
+}
+
+.quote-info-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.text-one{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #393737;
+} 
+
+.text-two{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: #70748C;
 }
