@@ -7,6 +7,7 @@
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 62.5%;
+    outline: solid red;
 }
 
 body{
@@ -26,14 +27,15 @@ a{
 
 header{
     display: flex;
-    margin: 5rem 10.2rem;
+    margin-top: 5rem;
     justify-content: space-between;
     align-items: center;
 }
 
 header img{
     width: 9.7rem;
-    height: 1.9rem;    
+    height: 1.9rem;
+    margin-left: 10.2rem;    
 }
 
 nav{
@@ -208,6 +210,9 @@ main button{
     margin-left: 12rem;
     position: relative;
     height: 902px;
+    background-image: url("./img/map.png");
+    background-repeat: no-repeat;
+    background-position: top 29rem left 50rem;
 }
 
 .section-two h2{
@@ -236,6 +241,7 @@ main button{
 .map-img{
     top: 28rem;
     left: 54rem;
+    overflow-x: hidden;
 }
 
 .parking-img{
@@ -334,4 +340,55 @@ main button{
     font-size: 1.5rem;
     line-height: 2.4rem;
     color: #70748C;
+}
+
+.section-four{    
+    background-color: #F0F8FF;
+}
+
+.section-four h2{
+    font-size: 9.6rem;
+    line-height: 10.1rem;
+    letter-spacing: 3.84px;
+    color: #4E66FF;
+    max-width: 47.9rem;
+    margin-left: 10.2rem;
+    margin-top: 6rem;
+}
+
+.sec-four-info{
+    display: flex;
+    margin-top: 6.3rem;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+
+.sec-four-info-text1{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: #4E66FF;
+    max-width: 33.3rem;
+    margin-top: 6.8rem;
+    margin-left: 10.2rem;
+}
+
+.sec-four-info-text2{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #4E66FF;
+    max-width: 23.7rem;
+}
+
+.sec-four-btn{
+    width: 19.5rem;
+    height: 6.8rem;
+    margin-top: 4rem;
+    background: #4E66FF;
+    border-radius: 4px;
+    border: none;
+
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.45px;
+    color: #FFFFFF;
 }
