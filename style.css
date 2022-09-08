@@ -7,7 +7,7 @@
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 62.5%;
-    outline: solid red;
+    /* outline: solid red; */
 }
 
 body{
@@ -54,7 +54,7 @@ nav{
 
 .header-btn{
     padding: 1rem 1.3rem;
-    margin-left: 0;
+    margin-right: 10.2rem;
     background-color: #fff;
     border: 1px solid rgba(57, 55, 55, 0.4);
     border-radius: 0.4rem;
@@ -208,6 +208,7 @@ main button{
 
 .section-two{
     margin-left: 12rem;
+    margin-right: 12rem;
     position: relative;
     height: 902px;
     background-image: url("./img/map.png");
@@ -343,7 +344,12 @@ main button{
 }
 
 .section-four{    
-    background-color: #F0F8FF;
+    background: #F0F8FF;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./img/bglines.png"), url("./img/bglines2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0 left 0, top 25rem left 116rem;
 }
 
 .section-four h2{
@@ -361,6 +367,7 @@ main button{
     margin-top: 6.3rem;
     justify-content: space-between;
     margin-bottom: 8rem;
+    margin-right: 16rem;
 }
 
 .sec-four-info-text1{
@@ -391,4 +398,65 @@ main button{
     line-height: 2.4rem;
     letter-spacing: 0.45px;
     color: #FFFFFF;
+}
+
+.section-five{
+    display: flex;
+    flex-direction: column;
+    background: #F9FBFD;
+}
+
+.section-five h2{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #393737;
+    margin-top: 10rem;
+    margin-left: 20rem;
+}
+
+.sec-five-gallery{
+    display: flex;
+    margin-left: 20rem;
+    margin-top: 2.4rem;
+    gap: 2.1rem;    
+}
+
+.sec-five-gallery-item{
+    background: #fff;
+    border-radius: 12px;
+}
+
+.sec-five-gallery-item h3{
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #393737;
+    max-width: 25.8rem;
+    margin-top: 2.2rem;
+    text-align: center;
+}
+
+.sec-five-gallery-item span{
+    display: block;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: #B5B7C7;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 1.7rem;
+}
+
+.section-five button{
+    margin-top: 8.8rem;
+    margin-bottom: 10rem;
+    width: 16.6rem;
+    height: 6rem;
+    margin-left: 20rem;
+    border: 1px solid #70748C;
+    border-radius: 4px;
+    background: #fff;
+
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.45px;
+    color: #5D6073;
 }
