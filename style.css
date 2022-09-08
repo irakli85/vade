@@ -463,12 +463,23 @@ main button{
 
 .section-six{
     display: flex;
-    background: #DDEBFF;
+    background: #DDEBFF;    
 }
 
 .sec-six-info{
+    height: 56.2rem;
     margin-top: 11.4rem;
     margin-left: 10.2rem;
+    margin-bottom: 11.8rem;
+    background-image: url("./img/whitebordertopleft.png"),
+    url("./img/whitebordertopright.png"),
+    url("./img/whiteborderbottomleft.png"),
+    url("./img/whiteborderbottomright.png");
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top 0 left 0,
+    top 0 right 0,
+    bottom 0 left 0,
+    bottom 0 right 0;
 }
 
 .sec-six-info h2{
@@ -477,6 +488,9 @@ main button{
     letter-spacing: 1.32px;
     color: #393737;
     max-width: 44.5rem;
+    font-weight: 700;
+    margin-top: 4.2rem;
+    margin-left: 5.7rem;    
 }
 
 .sec-six-info p{
@@ -486,6 +500,11 @@ main button{
     color: #393737;
     max-width: 42.5rem;
     margin-top: 31.3rem;
+    margin-left: 5.7rem; 
+}
+
+form{
+    margin-left: 8rem;
 }
 
 form input{
