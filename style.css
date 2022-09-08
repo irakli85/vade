@@ -460,3 +460,93 @@ main button{
     letter-spacing: 0.45px;
     color: #5D6073;
 }
+
+.section-six{
+    display: flex;
+    background: #DDEBFF;
+}
+
+.sec-six-info{
+    margin-top: 11.4rem;
+    margin-left: 10.2rem;
+}
+
+.sec-six-info h2{
+    font-size: 4.4rem;
+    line-height: 5rem;
+    letter-spacing: 1.32px;
+    color: #393737;
+    max-width: 44.5rem;
+}
+
+.sec-six-info p{
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    letter-spacing: 1.8px;
+    color: #393737;
+    max-width: 42.5rem;
+    margin-top: 31.3rem;
+}
+
+form input{
+    display: block;
+    border: none;
+}
+
+form input::placeholder{
+    font-size: 2.4rem;    
+    color: rgba(0, 0, 0, 0.22);
+    padding-left: 3.1rem;      
+}
+
+::-webkit-input-placeholder {
+    line-height: 5.4rem;
+}
+
+.name,
+.email{
+    width: 60.6rem;
+    height: 5.4rem;
+}
+
+.name{
+    margin-top: 15.6rem;
+}
+
+.email{
+    margin-top: 3rem;
+}
+
+.sec-six-inputs{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.company,
+.position{
+    width: 29.3rem;
+    height: 5.4rem;
+}
+
+.position{
+    margin-left: 2rem;
+}
+
+.message{
+    width: 60.6rem;
+    height: 10.8rem;
+    margin-top: 3rem;
+}
+
+form button{
+    margin-top: 5rem;
+    width: 18.4rem;
+    height: 6.8rem;
+    background: #393737;
+    border-radius: 4px;
+    border: none;
+
+    font-size: 2.4rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
