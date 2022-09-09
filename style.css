@@ -17,7 +17,7 @@ body{
     background-image: url("./img/header-img.png"),
                       url("./img/carbottom.png");
     background-repeat: no-repeat;
-    background-position: top -2px right 93px,
+    background-position: top -2px right 114px,
                          top 6px left 202px;
 }
 
@@ -67,15 +67,17 @@ nav{
 /* MAIN */
 
 main{
-    margin: 5rem 10.2rem;
+    margin-top: 5rem;
+    margin-left: 10.2rem;
+    margin-right: 10.2rem;
     height: 75rem;
     background-image: url("./img/carup.png"),
                       url("./img/carup.png"),
                       url('./img/main-img.png');
     background-repeat: no-repeat;
-    background-position: top 393px right 38px,
-     top 235px left 466px, 
-     top 375px left 971px;
+    background-position: bottom -75px right 45px,
+     bottom 47px right 408px, 
+     bottom 0 right 10px;
 }
 
 main h1{
@@ -432,6 +434,7 @@ main button{
 
 .sec-five-gallery{
     display: flex;
+    justify-self: center;
     margin-left: 20rem;
     margin-top: 2.4rem;
     gap: 2.1rem;    
