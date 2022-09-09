@@ -26,7 +26,7 @@ a{
     text-decoration: none;
 }
 
-/* HEADER */
+/* HEADER--------------------------------------- */
 
 header{
     display: flex;
@@ -112,7 +112,7 @@ nav{
   0% { box-shadow: 0 0 0 0 rgba(57, 55, 55, 0.4); }
 }
 
-/* MAIN */
+/* MAIN----------------------------------------- */
 
 main{
     margin-top: 5rem;
@@ -167,7 +167,7 @@ main button:focus {
   0% { box-shadow: 0 0 0 0 yellow; }
 }
 
-/* SECTION ONE */
+/* SECTION ONE-------------------------------- */
 
 .section-one{
     display: flex;
@@ -219,8 +219,6 @@ main button:focus {
 @keyframes agree {
   0% { box-shadow: 0 0 0 0 #4E66FF; }
 }
-
-
 
 .sec-one-info{
     display: flex;
@@ -295,7 +293,7 @@ main button:focus {
     max-width: 26.9rem;    
 }
 
-/* SECTION TWO */
+/* SECTION TWO--------------------------------- */
 
 .section-two{
     margin-left: 12rem;
@@ -351,7 +349,7 @@ main button:focus {
     left: 69rem;
 }
 
-/* SECTION THREE */
+/* SECTION THREE------------------------------- */
 
 .section-three{
     margin-left: 20.4rem;
@@ -436,7 +434,7 @@ main button:focus {
     color: #70748C;
 }
 
-/* SECTION FOUR */
+/* SECTION FOUR------------------------------------ */
 
 .section-four{    
     background: #F0F8FF;
@@ -506,7 +504,7 @@ main button:focus {
   0% { box-shadow: 0 0 0 0 #4E66FF; }
 }
 
-/* SECTION FIVE */
+/* SECTION FIVE------------------------------- */
 
 .section-five{
     display: flex;
@@ -581,7 +579,7 @@ main button:focus {
   0% { box-shadow: 0 0 0 0 #70748C; }
 }
 
-/* SECTION SIX */
+/* SECTION SIX-------------------------------- */
 
 .section-six{
     display: flex;
@@ -632,6 +630,12 @@ form{
 form input{
     display: block;
     border: none;
+    font-size: 2.4rem;
+    padding-left: 3.1rem;
+}
+
+form input:focus{
+    border: solid #4E66FF;
 }
 
 form input::placeholder{
@@ -641,15 +645,12 @@ form input::placeholder{
     padding-left: 3.1rem;        
 }
 
-
-
 .name,
 .email{
     width: 60.6rem;
     height: 5.4rem;
-    padding-top: 7px;
+    padding-top: 6px;
 }
-
 
 .name{
     margin-top: 15.6rem;
@@ -668,7 +669,7 @@ form input::placeholder{
 .position{
     width: 29.3rem;
     height: 5.4rem;
-    padding-top: 7px;
+    padding-top: 6px;
 }
 
 .position{
