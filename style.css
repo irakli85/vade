@@ -364,7 +364,7 @@ main button{
     flex-direction: column;
     background-image: url("./img/bglines.png"), url("./img/bglines2.png");
     background-repeat: no-repeat, no-repeat;
-    background-position: top 0 left 0, top 25rem left 116rem;
+    background-position: top 0 left 0, top 26rem left 124rem;
 }
 
 .section-four h2{
