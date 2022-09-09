@@ -47,18 +47,56 @@ nav{
 }
 
 .nav-items{
+    position: relative;
     font-size: 1.5rem;
     line-height: 2.4rem;
     letter-spacing: 0.9px;
     color: rgba(57, 55, 55, 0.4);
     margin-left: 2.6rem;
     width: 12.7rem;
+    text-align: center;
+}
+
+.header-nav:after,
+.header-nav:before{    
+    content: '';
+    display: block;
+    position: absolute;
+    width: 5%;
+    height: 20%;
+    border: 2px solid;
+    transition: all 0.6s ease;
+    border-radius: 2px;
+}
+
+.header-nav::after{
+      bottom: 0;
+      right: 0;
+      border-top-color: transparent;
+      border-left-color: transparent;
+      border-bottom-color: rgba(57, 55, 55, 0.4);
+      border-right-color: rgba(57, 55, 55, 0.4);
+}
+
+.header-nav::before{
+      top: 0;
+      left: 0;
+      border-bottom-color: transparent;
+      border-right-color: transparent;
+      border-top-color: rgba(57, 55, 55, 0.4);
+      border-left-color: rgba(57, 55, 55, 0.4);
+}
+
+.header-nav:hover:after,
+.header-nav:hover:before{    
+      width: 100%;
+      height: 100%;
 }
 
 .header-btn{
     padding: 1rem 1.3rem;
     margin-right: 10.2rem;
-    background-color: #fff;
+    background-color: transparent;
     border: 1px solid rgba(57, 55, 55, 0.4);
     border-radius: 0.4rem;
     cursor: pointer;
