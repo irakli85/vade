@@ -714,11 +714,34 @@ form button:focus {
     margin-right: 10.2rem;
 }
 
+.footer-links li{
+    position: relative;
+}
+
 .footer-links a{
     font-size: 1.5rem;
     color: #393737;
     margin-bottom: 2rem;    
 }
+    
+.footer-links a::after{
+      content: '';
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 0;
+      left: 0;
+      background-color: #16a085;
+      transition: width 0.3s ease-in-out;
+}
+
+.footer-links a::after{
+      bottom: -5px;
+}
+
+.footer-links a:hover::after{
+      width: 50px;
+    }
 
 .footer-info span{
     font-size: 15px;
