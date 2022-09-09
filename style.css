@@ -7,6 +7,7 @@
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 62.5%;
+    list-style: none;
     /* outline: solid red; */
 }
 
@@ -398,6 +399,7 @@ main button{
     line-height: 2.4rem;
     letter-spacing: 0.45px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .section-five{
@@ -459,6 +461,7 @@ main button{
     line-height: 1.8rem;
     letter-spacing: 0.45px;
     color: #5D6073;
+    cursor: pointer;
 }
 
 .section-six{
@@ -569,3 +572,73 @@ form button{
     color: #FFFFFF;
     cursor: pointer;
 }
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.3rem;
+    margin-left: 10.2rem;
+    margin-right: 10.2rem;
+}
+
+.footer-links a{
+    font-size: 1.5rem;
+    color: #393737;
+    margin-bottom: 2rem;    
+}
+
+.footer-info span{
+    font-size: 15px;
+    color: #393737;
+}
+
+.social{
+    display: flex;
+    gap: 1.1rem;
+    margin-top: 2rem;
+}
+
+address{
+    margin-top: 2.3rem;
+    max-width: 17.5rem;
+
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 2.4rem;
+    color: #70748C;
+}
+
+.vade-group{
+    display: block;
+    font-size: 1.2rem;
+    color: #B5B7C7;
+    margin-top: 5.3rem;
+    margin-left: 10.2rem;
+}
+
+hr{
+    margin-top: 2rem;
+    margin-left: 10.2rem;
+    margin-right: 10.2rem;
+    background: #DDEBFF;
+    border: none;
+    height: 1px;
+}
+
+.privacy{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 10.2rem;
+    margin-bottom: 3.3rem;
+}
+
+.privacy a{
+    font-size: 1.2rem;
+    color: #B5B7C7;
+}
+
+.privacy-item2{
+    margin-left: 1.6rem;
+}
+
+
