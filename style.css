@@ -64,6 +64,16 @@ nav{
     cursor: pointer;
 }
 
+.header-btn:hover, 
+.header-btn:focus {
+  animation: headerbtn 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes headerbtn {
+  0% { box-shadow: 0 0 0 0 rgba(57, 55, 55, 0.4); }
+}
+
 /* MAIN */
 
 main{
@@ -109,6 +119,16 @@ main button{
     color: #393737;
 }
 
+main button:hover, 
+main button:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 yellow; }
+}
+
 /* SECTION ONE */
 
 .section-one{
@@ -152,6 +172,18 @@ main button{
     cursor: pointer;
 }
 
+.cookies button:hover, 
+.cookies button:focus {
+  animation: agree 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes agree {
+  0% { box-shadow: 0 0 0 0 #4E66FF; }
+}
+
+
+
 .sec-one-info{
     display: flex;
     margin-top: 12.5rem;
@@ -187,6 +219,16 @@ main button{
     margin-top: 5.7rem;
     background: #F9FBFD;
     cursor: pointer;
+}
+
+.sec-one-info-box button:hover, 
+.sec-one-info-box button:focus {
+  animation: technology 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes technology {
+  0% { box-shadow: 0 0 0 0 #70748C; }
 }
 
 .sec-one-info img{
@@ -416,6 +458,16 @@ main button{
     cursor: pointer;
 }
 
+.sec-four-btn:hover, 
+.sec-four-btn:focus {
+  animation: impact 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes impact {
+  0% { box-shadow: 0 0 0 0 #4E66FF; }
+}
+
 /* SECTION FIVE */
 
 .section-five{
@@ -479,6 +531,16 @@ main button{
     letter-spacing: 0.45px;
     color: #5D6073;
     cursor: pointer;
+}
+
+.section-five button:hover, 
+.section-five button:focus {
+  animation: posts 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes posts {
+  0% { box-shadow: 0 0 0 0 #70748C; }
 }
 
 /* SECTION SIX */
@@ -590,6 +652,16 @@ form button{
     font-size: 2.4rem;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+form button:hover, 
+form button:focus {
+  animation: touch 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes touch {
+  0% { box-shadow: 0 0 0 0 #393737; }
 }
 
 /* FOOTER */
