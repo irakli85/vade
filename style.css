@@ -12,7 +12,7 @@
 }
 
 body{
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-image: url("./img/header-img.png"),
                       url("./img/carbottom.png");
@@ -25,6 +25,8 @@ a{
     display: block;
     text-decoration: none;
 }
+
+/* HEADER */
 
 header{
     display: flex;
@@ -61,6 +63,8 @@ nav{
     border-radius: 0.4rem;
     cursor: pointer;
 }
+
+/* MAIN */
 
 main{
     margin: 5rem 10.2rem;
@@ -102,6 +106,8 @@ main button{
     letter-spacing: 0.45px;
     color: #393737;
 }
+
+/* SECTION ONE */
 
 .section-one{
     display: flex;
@@ -207,6 +213,8 @@ main button{
     max-width: 26.9rem;    
 }
 
+/* SECTION TWO */
+
 .section-two{
     margin-left: 12rem;
     margin-right: 12rem;
@@ -260,6 +268,8 @@ main button{
     top: 53.3rem;
     left: 69rem;
 }
+
+/* SECTION THREE */
 
 .section-three{
     margin-left: 20.4rem;
@@ -344,6 +354,8 @@ main button{
     color: #70748C;
 }
 
+/* SECTION FOUR */
+
 .section-four{    
     background: #F0F8FF;
     display: flex;
@@ -401,6 +413,8 @@ main button{
     color: #FFFFFF;
     cursor: pointer;
 }
+
+/* SECTION FIVE */
 
 .section-five{
     display: flex;
@@ -463,6 +477,8 @@ main button{
     color: #5D6073;
     cursor: pointer;
 }
+
+/* SECTION SIX */
 
 .section-six{
     display: flex;
@@ -572,6 +588,8 @@ form button{
     color: #FFFFFF;
     cursor: pointer;
 }
+
+/* FOOTER */
 
 .footer-main{
     display: flex;
